@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { HappyCards } from '../components/HappyCards';
+---
+
+<Layout title="Welcome to Astro.">
+  <main>
+    <HappyCards />
+  </main>
+</Layout>
+
+<style>
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+</style>
